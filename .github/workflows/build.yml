@@ -1010,7 +1010,7 @@ jobs:
 
     strategy:
       matrix:
-        gpu_target: [gfx1100, gfx1101, gfx1030, "gfx1100;gfx1101;gfx1102;gfx1030;gfx906"]
+        gpu_target: [gfx1100, gfx1101, gfx1030, '"gfx1100;gfx1101;gfx1102;gfx1030;gfx906"']
 
     steps:
       - name: Clone
